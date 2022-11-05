@@ -37,6 +37,21 @@
   padding-left: 0.5rem;
 }
 
+.card {
+  margin: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  border: 3px solid black;
+  /* height:27rem; */
+}
+/* 
+.card-title {
+  font-size: 25px;
+}
+.card-text {
+  height: 6rem;
+} */
+
 @media only screen and (max-width: 1440px) {
 }
 
