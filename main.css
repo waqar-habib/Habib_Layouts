@@ -1,3 +1,7 @@
+.main {
+  background-color: antiquewhite;
+}
+
 .logo {
   width: 65px;
 }  
@@ -37,20 +41,19 @@
   padding-left: 0.5rem;
 }
 
+.catchyHeading {
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  padding-top:10rem;
+}
+
 .card {
   margin: 1rem;
   margin-top: 3rem;
   padding: 0.5rem;
   border: 3px solid black;
-  /* height:27rem; */
 }
-/* 
-.card-title {
-  font-size: 25px;
-}
-.card-text {
-  height: 6rem;
-} */
 
 @media only screen and (max-width: 1440px) {
 }
@@ -66,6 +69,16 @@
   }
   .jumbotronHeading {
     font-size: 4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .jumbotronHeading {
+    font-size: 3rem;
+  }
+  .catchyHeading {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
   }
 }
 
@@ -93,4 +106,24 @@
   .lead {
     font-size: 3rem;
   }
+
+  .catchyHeading {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+/* About Us Page */
+
+.img-right, .img-left {
+  width: 40rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.aboutUsHeading {
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 1rem;
 }
