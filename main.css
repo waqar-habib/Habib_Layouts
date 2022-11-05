@@ -118,12 +118,34 @@
 
 .img-right, .img-left {
   width: 40rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 4rem;
 }
 
 .aboutUsHeading {
   text-align: center;
   font-size: 5rem;
   padding-top: 1rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.aboutUsText {
+  padding: 4rem;
+}
+
+/* small display only */
+@media (max-width: 480px) {
+  .aboutUsHeading {
+    font-size: 3rem;
+  }
+  .img-right, .img-left {
+    width: 19rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-right, .img-left {
+    width: 25rem;
+    padding: 1rem;
+  }
 }
